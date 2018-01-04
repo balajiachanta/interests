@@ -1,0 +1,21 @@
+--
+--drop table int_forum_list; 
+--create table int_forum_list (
+--  topic_id INTEGER PRIMARY KEY,
+--  app_id VARCHAR(255),
+--  topic_name VARCHAR(255),
+--  create_dttm VARCHAR(255),
+--  update_dttm VARCHAR(255),
+--  created_user VARCHAR(255),
+--  status INTEGER(1),
+--  tag_line VARCHAR(255),
+--  validity_miutes INTEGER,
+--  preferred_order INTEGER,
+--  additional_information VARCHAR(4096),
+--  autoapprove INTEGER
+--);
+
+--insert into int_forum_list values('1','1','hello',null,null,'balu',1,null,3243,1,null,1);
+--insert into int_forum_list values('2','1','forumlist',null,null,'balu',1,null,3243,1,null,1);
+--insert into int_forum_list values('3','1','whattodo',null,null,'balu',0,null,3243,1,null,1);
+--insert into int_forum_list values('4','1','todaysworld',null,null,'balu',1,null,3243,1,null,1);
